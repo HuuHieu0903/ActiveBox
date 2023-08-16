@@ -1,0 +1,337 @@
+:root {
+  --white: #fff;
+  --red: #e84545;
+  --black: #2d3033;
+  --gray: #6c7279;
+  --gray-icon: #c6cacc;
+  --purple: #53354a;
+  --blue: #3a3e64;
+}
+@media screen and (max-width: 1200px) {
+  .header-content {
+    padding: 0 3%;
+    height: 70px;
+  }
+
+  .banner-title {
+    font-size: 36px;
+  }
+
+  .banner-desc {
+    font-size: 17px;
+  }
+
+  .services .container {
+    padding: 5% 3%;
+  }
+
+  .team {
+    padding: 0 3%;
+  }
+
+  .ad-text-container {
+    padding: 0 40px;
+  }
+
+  .ad-text h4 {
+    font-size: 22px;
+  }
+
+  .ad-text p {
+    font-size: 12px;
+  }
+
+  .footer .container {
+    padding: 70px 3%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .header {
+    height: 50vw;
+  }
+
+  .logo {
+    width: 100px;
+  }
+
+  .header-menu ul li a {
+    font-size: 10px;
+  }
+
+  .banner {
+    width: 90%;
+    padding-top: 18%;
+  }
+
+  .banner-title {
+    font-size: 33px;
+  }
+
+  .banner-desc {
+    font-size: 14px;
+  }
+
+  .btn {
+    font-size: 11px;
+  }
+
+  .services .container {
+    padding: 5% 15px;
+  }
+
+  .service-item {
+    width: calc((100% - 15px * 2) / 3);
+  }
+
+  .service-icon {
+    font-size: 40px;
+  }
+
+  .service-title {
+    font-size: 15px;
+  }
+
+  .service-desc {
+    font-size: 12px;
+  }
+
+  .photo-item {
+    width: calc((100% - 1px) / 2);
+  }
+
+  .team {
+    margin: 70px 0;
+    padding: 0 15px;
+  }
+
+  .member {
+    width: calc((100% - 15px * 3) / 4);
+  }
+
+  .member-image {
+    margin-bottom: 10px;
+  }
+
+  .member-name {
+    font-size: 18px;
+    margin-bottom: 0;
+  }
+
+  .member-position {
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+
+  .member-desc {
+    font-size: 10px;
+  }
+
+  .social-icon {
+    width: 30px;
+    height: 30px;
+    font-size: 14px;
+    line-height: 30px;
+  }
+
+  .advertising {
+    align-items: stretch;
+  }
+
+  .ad-text-container {
+    padding: 20px;
+  }
+
+  .ad-text h4 {
+    font-size: 20px;
+  }
+
+  .ad-text p {
+    font-size: 10px;
+  }
+
+  .circle span {
+    width: 6px;
+    height: 6px;
+  }
+
+  .download {
+    padding: 50px 0;
+  }
+
+  .download-title {
+    font-size: 24px;
+  }
+
+  .footer .container {
+    padding: 40px 15px;
+  }
+
+  .footer-title {
+    font-size: 12px;
+  }
+
+  .footer-desc {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .dropdown-menu {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+  }
+
+  .header-content {
+    display: block;
+    height: 50px;
+  }
+
+  .logo {
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+  }
+
+  .logo img {
+    width: 130px;
+  }
+
+  .header-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    transform: translateX(-100%);
+    background-color: var(--blue);
+    opacity: 0;
+    transition: transform 0.3s ease, opacity 0.2s ease;
+  }
+
+  .menu-is-open {
+    transform: translateX(0);
+    opacity: 1;
+  }
+
+  .header-menu ul {
+    flex-direction: column;
+    width: 100vw;
+  }
+
+  .header-menu ul li {
+    margin: 10px auto;
+  }
+
+  .header {
+    /* min-height: 10vw; */
+    padding: 0 15px;
+    height: auto;
+  }
+  .banner {
+    padding-top: 80px;
+    padding-bottom: 40px;
+  }
+  .banner-title {
+    font-size: 18px;
+  }
+
+  .banner-desc {
+    font-size: 12px;
+  }
+
+  .btn {
+    font-size: 13px;
+  }
+  .btn-small {
+    padding: 11px 34px;
+  }
+
+  .service-item {
+    width: 100%;
+    margin-bottom: 45px;
+  }
+  .service-icon {
+    font-size: 60px;
+    margin-bottom: 0;
+  }
+  .service-title {
+    font-size: 18px;
+  }
+  .service-desc {
+    font-size: 13px;
+    padding: 0 10px;
+  }
+
+  .photo-item {
+    width: 100%;
+  }
+
+  .member {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 60px;
+  }
+
+  .member-image {
+    width: 80%;
+    margin: 0 auto 20px auto;
+  }
+
+  .member-name {
+    font-size: 22px;
+    margin-bottom: 5px;
+  }
+
+  .member-position {
+    font-size: 14px;
+  }
+
+  .member-desc {
+    font-size: 13px;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+
+  .member-social {
+    justify-content: center;
+  }
+
+  .team {
+    margin-bottom: 0;
+  }
+  .advertising {
+    flex-direction: column;
+  }
+  .ad-image,
+  .ad-text {
+    width: 100%;
+  }
+  .circle {
+    margin-left: 0;
+    justify-content: center;
+  }
+  .download-title {
+    font-size: 27px;
+    margin-bottom: 10px;
+  }
+
+  .footer .container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer-item {
+    margin-bottom: 40px;
+    width: 100%;
+  }
+  .footer-title {
+    font-size: 15px;
+  }
+  .footer-desc {
+    font-size: 13px;
+  }
+}
